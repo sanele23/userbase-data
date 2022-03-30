@@ -12,9 +12,9 @@ In the terminal, insert this command to initiate the command line instructions (
 This command will display the following instructions on the terminal:
 
 
-    usage: main.py [-h] [-r] [-p]*
+    usage: main.py [-h] [-r] [-p]
 
-    A command line tool for interacting with our API*
+    A command line tool for interacting with our API
 
     optional arguments:
 
@@ -30,4 +30,4 @@ Type **python3 main.py -r** if you want to read and or, **python3 main.py -rp** 
 
     **python3 main.py -s**
 
-*Please note the csv file name will be saved as userbase.csv
+*Please note the csv file name will be saved as userbase.csv*
