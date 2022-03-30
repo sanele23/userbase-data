@@ -1,4 +1,3 @@
-
 from argparse import ArgumentParser
 import csv
 import json
@@ -19,7 +18,7 @@ def preview(data):
 
 # save data to csv file
 def save(data):
-    with open('product_data.csv', 'w') as f:
+    with open('userbase.csv', 'w') as f:
         field_names = ['date', 'no_of_users']
         writer = csv.DictWriter(f, fieldnames=field_names)
 
@@ -36,7 +35,8 @@ if __name__ == '__main__':
                         help='Sends a GET request to the product API.')
     parser.add_argument('-p', '--preview', action='store_true',
                         help='Shows us a preview of the data.')
-
+    parser.add_argument('-s', '--save', action='store_true',
+                        help='Save data as csv file.')
     args = parser.parse_args()
 
     if args.read:
