@@ -24,6 +24,8 @@ This command will display the following instructions on the terminal:
    
     -p, --preview  Shows us a preview of the data.
 
+    -s, --save  Save data as csv file.
+
 Type **python3 main.py -r** if you want to read and or, **python3 main.py -rp** to read and preview the data on the terminal.
 
 ### There's an added functionality in the application that allows the user to save the data in a csv file format:
